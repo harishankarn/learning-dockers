@@ -1,0 +1,27 @@
+ # Learning to use Dockers
+
+1.Clone the git repo
+  You should get a directory named DockerHelloWorldProject0 and other 
+  additional files
+
+2.Building docker image
+  sudo docker build -t [PATH/docker tag] [path fo folder containing dockerfile]
+
+ # Here -t means tag
+ # [docker tag] - name/tag you can assgin to the docker
+
+ # while building make sure to put path of the folder which contains the
+ # "Dockerfile"
+
+ # eg. If you are currently in the folder that contains the Dockerfile
+ # then put "." as path to indicate the Dockerfile is in the same dir 
+
+3.To run the program in the docker file
+  sudo docker run [docker tag]
+
+> To check the current docker images that are running 
+  sudo docker images 
+
+> To remove a docker image 
+  sudo docker image [docker tag]
+
