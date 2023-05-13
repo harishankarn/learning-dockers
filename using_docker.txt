@@ -1,4 +1,6 @@
-# use this website : https://github.com/amy-tabb/docker-tutorial-files 
+# use these websites :
+-> https://github.com/amy-tabb/docker-tutorial-files  
+-> https://amytabb.com/tips/tutorials/2018/07/28/docker-tutorial-c-plus-plus/
 
 1.Clone the git repo
   You should get a directory named DockerHelloWorldProject0 and other 
