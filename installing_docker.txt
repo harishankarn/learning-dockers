@@ -24,7 +24,7 @@
  sudo docker images
 
 6.To check all the container which were pulled
- sudo docker ps 
+ sudo docker ps -a 
 
 7.To check all the running containers
  sudo docker ps
