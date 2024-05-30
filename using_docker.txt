@@ -7,6 +7,9 @@
   additional files
 
 2.Building docker image
+  Make sure to copy your dockerfile code to a .txt and name it "Dockerfile.txt"
+  The path of dockerfile folder must be put. eg: "~/Desktop" if Dockerfile.txt path is in "Desktop"
+
   sudo docker build -t [PATH/docker tag] [path fo folder containing dockerfile]
 
  # Here -t means tag
